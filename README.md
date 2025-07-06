@@ -41,6 +41,7 @@ Built using modern web technologies, ChatBot-AI offers an interactive and intuit
 ```bash
 git clone https://github.com/PalakMishra1905/ChatBot-AI.git
 cd ChatBot-AI
+
 2. Install Dependencies
 npm install
 
