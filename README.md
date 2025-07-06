@@ -26,10 +26,10 @@ Built using modern web technologies, ChatBot-AI offers an interactive and intuit
 
 ## 🚀 Tech Stack
 
-- **Frontend:** React.js, CSS  
-- **Backend/API:** HuggingFace Inference API (for image generation)  
+- **Frontend:** React.js, HTML, CSS  
+- **Backend/API:** Google gemini api   
 - **Image Processing:** FileReader API  
-- **Notifications:** react-toastify
+- **Deployment:** Netlify
   
 ---
 
