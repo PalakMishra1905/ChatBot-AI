@@ -29,9 +29,10 @@ Built using modern web technologies, ChatBot-AI offers an interactive and intuit
 - **Frontend:** React.js, CSS  
 - **Backend/API:** HuggingFace Inference API (for image generation)  
 - **Image Processing:** FileReader API  
-- **Notifications:** react-toastify  
-
+- **Notifications:** react-toastify
+  
 ---
+
 
 ## 🔧 Setup Instructions
 
@@ -42,7 +43,36 @@ git clone https://github.com/PalakMishra1905/ChatBot-AI.git
 cd ChatBot-AI
 2. Install Dependencies
 npm install
-3. Run the App
+
+3. folder Structure
+
+ChatBot-AI/
+├── public/
+│   └── index.html                  # Main HTML file
+│
+├── src/
+│   ├── assets/                     # Optional: For storing images, icons, etc.
+│   │   └── logo.png
+│
+│   ├── components/                 # Reusable UI components
+│   │   ├── ChatBox.jsx             # Chat UI component
+│   │   ├── ImageUploader.jsx       # Image upload component
+│   │   ├── ImageGenerator.jsx      # AI image generation component
+│   │   └── Navbar.jsx              # Navigation bar
+│
+│   ├── Context/
+│   │   └── UserContext.jsx         # React Context for managing global state
+│
+│   ├── pages/                      # Page-level components
+│   │   ├── Home.jsx
+│   │   └── About.jsx               # Optional: Info about the project
+│
+│   ├── huggingFace.js             # Utility file to call HuggingFace API
+│   ├── App.jsx                    # Main App component
+│   ├── main.jsx                   # Entry point for React app
+│   └── index.css                  # Global styles
+
+4. Run the App
 npm start
 🙋‍♀️ Author
 Palak Mishra
