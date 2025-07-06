@@ -3,8 +3,7 @@
 ChatBot-AI is a modern AI-powered web application that allows users to:
 
 - 💬 Chat in real-time with an AI assistant  
-- 🖼️ Upload images for analysis or transformation  
-- 🎨 Generate images using powerful text-to-image AI models  
+- 🖼️ Upload images for analysis or transformation    
 
 Built using modern web technologies, ChatBot-AI offers an interactive and intuitive interface for both conversation and creativity.
 
