@@ -1,0 +1,233 @@
+/* Home Page */
+
+.home{
+  width:100%;
+  height:100vh;
+  overflow: hidden;
+}
+
+nav{
+  width:100%;
+  height:80px;
+  display:flex;
+  align-items: center;
+  justify-content:start;
+  color:white;
+  padding:10px 30px;
+  font-size: 30px;
+  cursor:pointer;
+}
+
+.hero{
+  width:100%;
+  height:70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color:white;
+  gap:20px;
+  padding:10px 20px;
+}
+
+#tag{
+  font-size: 2.5vmax;
+}
+
+.category{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  flex-wrap: wrap;
+}
+
+.upImg, .genImg, .chat{
+   border:2px solid white;
+   padding:10px 20px;
+   border-radius: 30px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   gap:10px;
+   font-size: 19px;
+   cursor:pointer;
+}
+
+.upImg svg{
+  width:25px;
+  height:25px;
+  color:rgb(7, 200, 7);
+}
+
+.genImg svg{
+  width:25px;
+  height:25px;
+  color:rgb(7, 161, 200);
+}
+
+.chat svg{
+  width:25px;
+  height:25px;
+  color:rgb(200, 68, 7);
+}
+
+.upImg:hover, .genImg:hover, .chat:hover{
+   background-color: rgba(240, 248, 255, 0.108);
+}
+
+.input-box{
+  width:100%;
+  height: calc(100vh - 80px -70%);
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap:20px;
+  padding:0 20px;
+  position:fixed;
+  bottom:50px;
+}
+
+#add, #submit{
+  width:60px;
+  height:60px;
+  border:2px solid rgb(185, 183, 183);
+  border-radius: 50px;
+  background-color: rgb(11, 16, 17);
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+}
+
+#add svg, #submit svg{
+  height: 30px;
+  width: 30px;
+}
+
+#submit svg{
+   height: 25px;
+  width: 25px;
+}
+
+form input{
+  max-width: 60%;
+  width:calc(100% - 120px);
+  height: 60px;
+  background-color: rgb(11, 16, 17);
+  border:2px solid rgb(185, 183, 183);
+  outline:none;
+  border-radius: 30px;
+  color: white;
+  padding:10px 20px;
+  font-size: 19px;
+}
+
+#genImg{
+  color:rgb(7, 161, 200);
+}
+
+.pop-up{
+  height: 100px;
+  width: 200px;
+  position:absolute;
+  bottom:100px;
+  left:15%;
+  background-color: rgb(11, 16, 17);
+  border:2px solid rgb(185, 183, 183);
+  border-radius:30px;
+  color:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:5px;
+  flex-direction: column;
+  gap:10px;
+}
+
+.select-up, .select-gen{
+  width:100%;
+  padding:5px;
+  display:flex;
+  gap:10px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: start;
+  border-radius: 20px;
+  cursor:pointer;
+}
+
+#input-img{
+  height: 150px;
+  border-radius: 20px;
+  position:absolute;
+  left:15%;
+  bottom:120px;
+  box-shadow: 2px 2px 10px rgb(1, 1, 94);
+}
+
+.select-up:hover, .select-gen:hover{
+   background-color: rgba(240, 248, 255, 0.108);
+}
+
+.select-up svg{
+  width: 25px;
+  height: 25px;
+  color:rgb(7, 200, 7);
+}
+
+.select-gen svg{
+  width: 25px;
+  height: 25px;
+  color:rgb(7, 161, 200);
+}
+
+@media(max-width:500px){
+  #tag{
+    font-size: 20px;
+  }
+}
+
+/* Chat-page */
+
+.chat-page{
+  width: 100%;
+  height: 70%;
+  display:flex;
+  align-items:start;
+  justify-content:start;
+  flex-direction:column;
+  gap:20px;
+  padding:20px;
+  overflow-y: auto;
+}
+
+.user, .ai{
+  width: 90%;
+  padding:20px 30px;
+  background-color: rgb(11, 16, 17);
+  border:2px solid rgb(185, 183, 183);
+  color:white;
+  border-radius: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap:20px;
+  flex-direction: column;
+}
+
+.user img{
+  width: 400px;
+  height:400px;
+  border-radius: 20px;
+}
+
+@media(max-width:500px){
+   .user img{
+    width: 200px;
+    height:200px;
+   }
+}
