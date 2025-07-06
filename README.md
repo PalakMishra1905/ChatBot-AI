@@ -18,8 +18,7 @@ Built using modern web technologies, ChatBot-AI offers an interactive and intuit
 ## 🌟 Features
 
 - **AI Chat Interface** – Talk with an AI in a real-time messaging format  
-- **Image Upload** – Upload images for AI interpretation or enhancements  
-- **Text-to-Image Generation** – Enter prompts to generate unique AI art  
+- **Image Upload** – Upload images for AI interpretation or enhancements   
 - **Responsive UI** – Clean, responsive layout for desktop and mobile  
 - **Toast Notifications** – Smooth feedback using `react-toastify`
 
